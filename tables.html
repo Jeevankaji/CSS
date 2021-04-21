@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td{
+            border-style: none;
+            border-collapse : collapse;
+        }
+  
+        td,th{
+            padding:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        tr:nth-child(even){
+            background-color: grey;
+        }
+        th{
+            background-color: green;
+        }
+        th:first-child{
+            border-radius: 30px 0 0 0;
+        }
+        th:last-child{
+            border-radius: 0 30px 0 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: darkturquoise;
+        }
+        a:visited{
+            color:blue;
+        }
+        a:hover{
+            color:red;
+        }
+        a:active{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.w3schools.com/html/html_tables.asp"><h1>HTML Tables</h1></a>
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>address</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Jiwan Raut</td>
+            <td>bagbazar</td>
+            <td><a href="http://www.gmail.com">jiwan@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sandeep Thanait</td>
+            <td>ktm</td>
+            <td><a href="sandeep@gmail.com"><button>sandeep@gmail.com</button></a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Jiwan Raut</td>
+            <td>bagbazar</td>
+            <td>jiwan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sandeep Thanait</td>
+            <td>ktm</td>
+            <td>sandeep@gmail.com</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Jiwan Raut</td>
+            <td rowspan="2">bagbazar</td>
+            <td>jiwan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Sandeep Thanait</td>
+            
+            <td>sandeep@gmail.com</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td colspan="2">Jiwan Raut, bagbazar</td>
+            
+            <td>jiwan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Sandeep Thanait</td>
+            <td>ktm</td>
+            <td>sandeep@gmail.com</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Jiwan Raut</td>
+            <td>bagbazar</td>
+            <td>jiwan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Sandeep Thanait</td>
+            <td>ktm</td>
+            <td>sandeep@gmail.com</td>
+        </tr>
+
+    </table>
+    <a href="http://google.com"><img src="images/tummy trimmer.jpg" alt="tummy trimmer.jpg" width="50%"></a>
+</body>
+</html>
